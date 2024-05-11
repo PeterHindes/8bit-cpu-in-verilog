@@ -1,0 +1,422 @@
+$date
+	Tue May  7 20:15:24 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100us
+$end
+$scope module tb_clock_module $end
+$var wire 1 ! clk_out $end
+$var parameter 32 " virtual_clk $end
+$var reg 1 # clk $end
+$var reg 1 $ manual_clk $end
+$var reg 1 % select $end
+$scope module clock_module_inst $end
+$var wire 1 # clk $end
+$var wire 1 $ manual_clk $end
+$var wire 1 & manual_clk_debounce $end
+$var wire 1 % select $end
+$var wire 1 ' div_clk $end
+$var wire 1 ! clk_out $end
+$var parameter 32 ( debounce_cycles_to_wait $end
+$var parameter 32 ) source_clk $end
+$var parameter 32 * target_clk $end
+$scope module clock_divider_inst $end
+$var wire 32 + DIVISOR [31:0] $end
+$var wire 32 , ONCYCLES [31:0] $end
+$var wire 1 # clock_in $end
+$var parameter 32 - STARTDELAY $end
+$var reg 1 ' clock_out1 $end
+$var reg 28 . counter [27:0] $end
+$upscope $end
+$scope module debounce_instance $end
+$var wire 1 $ btn $end
+$var wire 1 # clk $end
+$var wire 1 / hclk $end
+$var parameter 32 0 CLOCK_SPEED $end
+$var parameter 32 1 MIN_HOLD_TIME $end
+$var reg 1 2 btn_db $end
+$scope module cinst $end
+$var wire 32 3 DIVISOR [31:0] $end
+$var wire 32 4 ONCYCLES [31:0] $end
+$var wire 1 # clock_in $end
+$var parameter 32 5 STARTDELAY $end
+$var reg 1 / clock_out1 $end
+$var reg 28 6 counter [27:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b0 5
+b1 1
+b101111101011110000100000000 0
+b0 -
+b110010 *
+b1100100 )
+b1010 (
+b1100100 "
+$end
+#0
+$dumpvars
+b0 6
+b11111111101010110011101010011101 4
+b11111111010101100111010100111001 3
+x2
+x/
+b0 .
+b1 ,
+b10 +
+x'
+x&
+0%
+0$
+0#
+x!
+$end
+#1
+1!
+0&
+02
+1'
+b1 .
+1/
+b1 6
+1#
+#2
+0#
+#3
+0!
+b10 6
+0'
+b0 .
+1#
+#4
+0#
+#5
+1!
+1'
+b1 .
+b11 6
+1#
+#6
+0#
+#7
+0!
+b100 6
+0'
+b0 .
+1#
+#8
+0#
+#9
+1!
+1'
+b1 .
+b101 6
+1#
+#10
+0!
+0#
+1$
+1%
+#11
+b110 6
+0'
+b0 .
+1#
+#12
+0#
+#13
+1'
+b1 .
+b111 6
+1#
+#14
+0#
+#15
+b1000 6
+0'
+b0 .
+1#
+#16
+0#
+#17
+1'
+b1 .
+b1001 6
+1#
+#18
+0#
+#19
+b1010 6
+0'
+b0 .
+1#
+#20
+0#
+#21
+1'
+b1 .
+b1011 6
+1#
+#22
+0#
+#23
+b1100 6
+0'
+b0 .
+1#
+#24
+0#
+#25
+1'
+b1 .
+b1101 6
+1#
+#26
+0#
+#27
+b1110 6
+0'
+b0 .
+1#
+#28
+0#
+#29
+1'
+b1 .
+b1111 6
+1#
+#30
+0#
+0$
+#31
+b10000 6
+0'
+b0 .
+1#
+#32
+0#
+#33
+1'
+b1 .
+b10001 6
+1#
+#34
+0#
+#35
+b10010 6
+0'
+b0 .
+1#
+#36
+0#
+#37
+1'
+b1 .
+b10011 6
+1#
+#38
+0#
+#39
+b10100 6
+0'
+b0 .
+1#
+#40
+0#
+#41
+1'
+b1 .
+b10101 6
+1#
+#42
+0#
+#43
+b10110 6
+0'
+b0 .
+1#
+#44
+0#
+#45
+1'
+b1 .
+b10111 6
+1#
+#46
+0#
+#47
+b11000 6
+0'
+b0 .
+1#
+#48
+0#
+#49
+1'
+b1 .
+b11001 6
+1#
+#50
+0#
+1$
+#51
+b11010 6
+0'
+b0 .
+1#
+0$
+#52
+0#
+#53
+1'
+b1 .
+b11011 6
+1#
+1$
+#54
+0#
+#55
+b11100 6
+0'
+b0 .
+1#
+0$
+#56
+0#
+#57
+1'
+b1 .
+b11101 6
+1#
+#58
+0#
+#59
+b11110 6
+0'
+b0 .
+1#
+1$
+#60
+0#
+#61
+1'
+b1 .
+b11111 6
+1#
+#62
+0#
+#63
+b100000 6
+0'
+b0 .
+1#
+#64
+0#
+#65
+1'
+b1 .
+b100001 6
+1#
+#66
+0#
+#67
+b100010 6
+0'
+b0 .
+1#
+#68
+0#
+#69
+1'
+b1 .
+b100011 6
+1#
+#70
+0#
+0$
+#71
+b100100 6
+0'
+b0 .
+1#
+#72
+0#
+1$
+#73
+1'
+b1 .
+b100101 6
+1#
+#74
+0#
+0$
+#75
+b100110 6
+0'
+b0 .
+1#
+#76
+0#
+#77
+1'
+b1 .
+b100111 6
+1#
+1$
+#78
+0#
+0$
+#79
+b101000 6
+0'
+b0 .
+1#
+#80
+0#
+#81
+1'
+b1 .
+b101001 6
+1#
+#82
+0#
+#83
+b101010 6
+0'
+b0 .
+1#
+#84
+0#
+#85
+1'
+b1 .
+b101011 6
+1#
+#86
+0#
+#87
+b101100 6
+0'
+b0 .
+1#
+#88
+0#
+#89
+1'
+b1 .
+b101101 6
+1#
+#90
+0#
+#91
+b101110 6
+0'
+b0 .
+1#
